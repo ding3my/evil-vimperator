@@ -53,6 +53,10 @@ cnoremap <C-w> <C-x>
 " ### Pasting
 inoremap <C-y> <C-v>
 cnoremap <C-y> <C-v>
+" ## Other
+inoremap <C-g> <Esc>
+cnoremap <C-g> <Esc>
+nnoremap <C-g> <Esc>
 
 " # Command by emacs
 " ## Recall the next of previous command
