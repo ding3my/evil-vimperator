@@ -10,7 +10,7 @@ cnoremap <C-b> <left>
 cnoremap <C-n> <down>
 cnoremap <C-p> <up>
 " ### Word Right Left
-inoremap <A-f> <C-S-right><right>
+inoremap <A-f> <C-right>
 inoremap <A-b> <C-left>
 cnoremap <A-f> <C-right>
 cnoremap <A-b> <C-left>
@@ -32,8 +32,8 @@ cnoremap <C-d> <del>
 " default <BS> or <C-h>
 " ### Word Right Left
 inoremap <A-d> <C-S-right><Del>
-cnoremap <A-d> <C-S-right><Del>
 inoremap <A-BS> <C-S-left><BS>
+cnoremap <A-d> <C-S-right><Del>
 cnoremap <A-BS> <C-S-left><BS>
 " ### Sentence Tail Head
 inoremap <C-k> <S-end><Del>
