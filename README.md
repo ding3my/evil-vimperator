@@ -5,7 +5,7 @@ Shortcuts for firefox via emacs and vim
 ``` bash
 mkdir ~/.vimperator/plugin -p
 
-wget https://raw.githubusercontent.com/ding3my/evil-vimperator/master/evil.vimrc -P ~/.vimperator/plugin
+wget https://raw.githubusercontent.com/ding3my/evil-vimperator/master/evil.vimrc -O ~/.vimperator/plugin/evil.vimrc ; cat ~/.vimperator/plugin/evil.vimrc
 
 grep '^"evil-vimperator$' ~/.vimperatorrc || cat << end >>  ~/.vimperatorrc
 
