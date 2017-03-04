@@ -10,7 +10,7 @@ cnoremap <C-b> <left>
 cnoremap <C-n> <down>
 cnoremap <C-p> <up>
 " ### Word Right Left
-inoremap <A-f> <C-right>
+inoremap <A-f> <C-S-right><right>
 inoremap <A-b> <C-left>
 cnoremap <A-f> <C-right>
 cnoremap <A-b> <C-left>
@@ -20,7 +20,6 @@ inoremap <C-a> <home>
 cnoremap <C-e> <end>
 cnoremap <C-a> <home>
 " ### Paragraph Tail Head
-" No
 " ### Article Tail Head
 inoremap <A->> <C-end>
 inoremap <A-<> <C-home>
@@ -32,16 +31,15 @@ inoremap <C-d> <del>
 cnoremap <C-d> <del>
 " default <BS> or <C-h>
 " ### Word Right Left
-inoremap <A-d> <C-S-right><BS>
-cnoremap <A-d> <C-del>
-" C-BS no effect
-inoremap <A-BS> <C-BS>
-cnoremap <A-BS> <C-BS>
+inoremap <A-d> <C-S-right><Del>
+cnoremap <A-d> <C-S-right><Del>
+inoremap <A-BS> <C-S-left><BS>
+cnoremap <A-BS> <C-S-left><BS>
 " ### Sentence Tail Head
-inoremap <C-k> <S-end><del>
-inoremap <A-k> <S-home><del>
-cnoremap <C-k> <S-end><del>
-cnoremap <A-k> <S-home><del>
+inoremap <C-k> <S-end><Del>
+inoremap <A-k> <S-home><BS>
+cnoremap <C-k> <S-end><Del>
+cnoremap <A-k> <S-home><BS>
 " ## To select & copy & cut & paste
 " ### Selecting all
 inoremap <A-x>h <C-home><C-S-end>
