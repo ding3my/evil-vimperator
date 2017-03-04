@@ -66,6 +66,8 @@ nnoremap <C-f> f
 nnoremap b <C-b>
 nnoremap <C-b> b
 " ## Tabs
+nnoremap t <C-t>
+nnoremap <C-t> t
 nnoremap n <C-n>
 nnoremap <C-n> n
 nnoremap p <C-p>
