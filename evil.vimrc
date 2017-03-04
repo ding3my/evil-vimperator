@@ -32,7 +32,7 @@ inoremap <C-d> <del>
 cnoremap <C-d> <del>
 " default <BS> or <C-h>
 " ### Word Right Left
-inoremap <A-d> <C-S-right>
+inoremap <A-d> <C-S-right><BS>
 cnoremap <A-d> <C-del>
 " C-BS no effect
 inoremap <A-BS> <C-BS>
