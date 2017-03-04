@@ -26,7 +26,7 @@ inoremap <A-d> <C-del>
 inoremap <A-BS> <C-BS>
 " ### Sentence Tail Head
 inoremap <C-k> <S-end><del>
-inoremap <C-S-k> <S-home><del>
+inoremap <A-k> <S-home><del>
 " ## To select
 " ### All
 inoremap <A-x>h <C-home><C-S-end>
@@ -39,9 +39,9 @@ cnoremap <A-p> <up>
 " # Viewing by vim
 " ## Motion
 nnoremap f <C-f>
+nnoremap <C-f> f
 nnoremap b <C-b>
-" ## Hints
-nnoremap <C-S-f> f
+nnoremap <C-b> b
 " ## Bookmarks
 nnoremap <C-S-b> <ins><C-b><ins>
 inoremap <C-S-b> <ins><C-b><ins>
