@@ -10,7 +10,9 @@ wget https://raw.githubusercontent.com/ding3my/evil-vimperator/master/evil.vimrc
 grep '^"evil-vimperator$' ~/.vimperatorrc || cat << end >>  ~/.vimperatorrc
 
 "evil-vimperator
+cd ~/.vimperator/plugin/
 source ~/.vimperator/plugin/evil.vimrc
+cd ~
 "evil-vimperator
 end
 

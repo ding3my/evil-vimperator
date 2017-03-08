@@ -81,3 +81,8 @@ nnoremap <C-S-b> <ins><C-b><ins>
 inoremap <C-S-b> <ins><C-b><ins>
 cnoremap <C-S-b> <ins><C-b><ins>
 
+" # Urls
+source ./url.vimrc
+" ## Opening url
+nnoremap <Leader>o :js open_url("")<left><left>
+
