@@ -91,3 +91,4 @@ nnoremap <Leader>o :js open_url("")<left><left>
 " # Other
 " ## Hinting by h key
 nnoremap h f
+nnoremap H F
