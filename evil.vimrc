@@ -42,8 +42,8 @@ cnoremap <C-k> <S-end><Del>
 cnoremap <A-k> <S-home><BS>
 " ## To select & copy & cut & paste
 " ### Selecting all
-inoremap <A-x>h <C-home><C-S-end>
-cnoremap <A-x>h <C-home><C-S-end>
+inoremap <A-h> <C-home><C-S-end>
+cnoremap <A-h> <C-home><C-S-end>
 " ### Copying
 inoremap <A-w> <C-c>
 cnoremap <A-w> <C-c>
@@ -81,8 +81,13 @@ nnoremap <C-S-b> <ins><C-b><ins>
 inoremap <C-S-b> <ins><C-b><ins>
 cnoremap <C-S-b> <ins><C-b><ins>
 
+
 " # Urls
 source ./url.vimrc
 " ## Opening url
 nnoremap <Leader>o :js open_url("")<left><left>
 
+
+" # Other
+" ## Hinting by h key
+nnoremap h f
