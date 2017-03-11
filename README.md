@@ -19,6 +19,6 @@ end
 ```
 
 ``` bash
-[ ! -e "$HOME/.evil-vimperator.d/.config.js" ] && cp "$HOME/bin/evil-vimperator/.config.js" "$HOME/.evil-vimperator.d/.config.js" 
-[ ! -e "$HOME/.evil-vimperator.d/.url.js" ] && cp "$HOME/bin/evil-vimperator/.url.js" "$HOME/.evil-vimperator.d/.url.js" 
+[ ! -e "$HOME/.evil-vimperator.d/.config.vimp" ] && cp "$HOME/bin/evil-vimperator/.config.vimp" "$HOME/.evil-vimperator.d/.config.vimp" 
+[ ! -e "$HOME/.evil-vimperator.d/.url.vimp" ] && cp "$HOME/bin/evil-vimperator/.url.vimp" "$HOME/.evil-vimperator.d/.url.vimp" 
 ```
