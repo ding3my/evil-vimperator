@@ -1,4 +1,3 @@
-js <<EOF
 function get_url(args){
 re = ".*" + args.replace(/ /g,".*") + ".*"
 //alert(re)
@@ -20,5 +19,3 @@ function open_url(keys) {
 //liberator.open("www.baidu.com", liberator.NEW_TAB)
 liberator.execute("tabopen "+ get_url(keys));
 }
-
-EOF

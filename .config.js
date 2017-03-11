@@ -1,4 +1,4 @@
-prog_dir="~/bin"
+prog_dir="~/bin/evil-vimperator"
 conf_dir="~/.evil-vimperator.d" 
 paths={
     "url":prog_dir+"/url.js" ,
