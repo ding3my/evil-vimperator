@@ -1,4 +1,4 @@
-source $HOME/.urls.js
+source $HOME/.evil-vimperator.d/.urls.js
 js <<EOF
 function get_url(args){
 re = ".*" + args.replace(/ /g,".*") + ".*"
