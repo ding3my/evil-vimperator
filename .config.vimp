@@ -1,0 +1,8 @@
+js<<EOF
+prog_dir="~/bin/evil-vimperator"
+conf_dir="~/.evil-vimperator.d" 
+paths={
+    "url":prog_dir+"/url.vimp" ,
+    "dot_url":conf_dir+"/.url.vimp" //dot_ means config file
+}
+EOF
