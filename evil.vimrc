@@ -1,3 +1,12 @@
+js<<EOF
+liberator.execute("source ~/.evil-vimperator.d/.config.js");
+liberator.execute("source "+paths.dot_urls);
+EOF
+
+" # Urls
+" ## Opening url
+nnoremap <Leader>o :js open_url("")<left><left>
+
 " # Editing line not area by emacs
 " ## To move
 " ### Char Right Left Down Up
@@ -82,10 +91,6 @@ inoremap <C-S-b> <ins><C-b><ins>
 cnoremap <C-S-b> <ins><C-b><ins>
 
 
-" # Urls
-source ./url.vimrc
-" ## Opening url
-nnoremap <Leader>o :js open_url("")<left><left>
 
 
 " # Other
