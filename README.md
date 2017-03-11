@@ -3,34 +3,22 @@ Shortcuts for firefox via emacs and vim
 # Installation
 ## Linux
 ``` bash
-mkdir ~/.vimperator/plugin -p
+mkdir $HOME/.vimperator/plugin -p
+mkdir $HOME/.evil-vimperator.d -p
 
-wget https://raw.githubusercontent.com/ding3my/evil-vimperator/master/evil.vimrc -O ~/.vimperator/plugin/evil.vimrc ; cat ~/.vimperator/plugin/evil.vimrc
+git clone https://github.com/ding3my/evil-vimperator.git $HOME/.vimperator/plugin/evil-vimperator
 
-grep '^"evil-vimperator$' ~/.vimperatorrc || cat << end >>  ~/.vimperatorrc
+grep '^"evil-vimperator$' $HOME/.vimperatorrc || cat << end >>  $HOME/.vimperatorrc
 
 "evil-vimperator
-cd ~/.vimperator/plugin/
-source ~/.vimperator/plugin/evil.vimrc
-cd ~
+cd $HOME/.vimperator/plugin/
+source $HOME/.vimperator/plugin/evil.vimrc
+cd $HOME
 "evil-vimperator
 end
 
 ```
 
-## Windows 7 python 2.7
-
-```
-mkdir %USERPROFILE%\vimperator\plugin
-
-cd %USERPROFILE%\vimperator\plugin
-python -c "import urllib ; urllib.urlretrieve('https://raw.githubusercontent.com/ding3my/evil-vimperator/master/evil.vimrc', 'evil.vimrc')"
-
-findstr /r \"^evil-vimperator$"  %USERPROFILE%\_vimperatorrc || (
-echo \"evil-vimperator >>  %USERPROFILE%\_vimperatorrc
-echo source %USERPROFILE%\vimperator\plugin\evil-vimperator\evil.vimrc >>  %USERPROFILE%\_vimperatorrc
-echo \"evil-vimperator >>  %USERPROFILE%\_vimperatorrc
-)
-
-
+``` bash
+[ ! -e "$HOME/.evil-vimperator.d/.urls.js" ] && cp "$HOME/.vimperator/plugin/evil-vimperator/.urls.js" "$HOME/.evil-vimperator.d/.urls.js" 
 ```
