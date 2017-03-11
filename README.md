@@ -20,5 +20,6 @@ end
 ```
 
 ``` bash
+[ ! -e "$HOME/.evil-vimperator.d/.config.js" ] && cp "$HOME/.vimperator/plugin/evil-vimperator/.config.js" "$HOME/.evil-vimperator.d/.config.js" 
 [ ! -e "$HOME/.evil-vimperator.d/.urls.js" ] && cp "$HOME/.vimperator/plugin/evil-vimperator/.urls.js" "$HOME/.evil-vimperator.d/.urls.js" 
 ```
