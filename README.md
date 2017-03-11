@@ -11,9 +11,9 @@ git clone https://github.com/ding3my/evil-vimperator.git $HOME/.vimperator/plugi
 grep '^"evil-vimperator$' $HOME/.vimperatorrc || cat << end >>  $HOME/.vimperatorrc
 
 "evil-vimperator
-cd $HOME/.vimperator/plugin/
-source $HOME/.vimperator/plugin/evil-vimperator/evil.vimrc
-cd $HOME
+cd ~/.vimperator/plugin/
+source ~/.vimperator/plugin/evil-vimperator/evil.vimrc
+cd ~
 "evil-vimperator
 end
 
