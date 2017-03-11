@@ -12,7 +12,7 @@ grep '^"evil-vimperator$' $HOME/.vimperatorrc || cat << end >>  $HOME/.vimperato
 
 "evil-vimperator
 cd $HOME/.vimperator/plugin/
-source $HOME/.vimperator/plugin/evil.vimrc
+source $HOME/.vimperator/plugin/evil-vimperator/evil.vimrc
 cd $HOME
 "evil-vimperator
 end
