@@ -1,5 +1,5 @@
 js<<EOF
-liberator.execute("source ~/.evil-vimperator.d/.config.js");
+liberator.execute("source ~/bin/.evil-vimperator.d/.config.js");
 liberator.execute("source "+paths.url);
 liberator.execute("source "+paths.dot_url);
 EOF
