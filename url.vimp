@@ -20,4 +20,8 @@ function open_url(keys) {
 //liberator.open("www.baidu.com", liberator.NEW_TAB)
 liberator.execute("tabopen "+ get_url(keys));
 }
+
+function add_url(u){
+    liberator.execute("run "+prog_dir+"/url.d/add_url.sh "+u)
+}
 EOF

@@ -7,6 +7,7 @@ EOF
 " # Urls
 " ## Opening url
 nnoremap <Leader>o :js open_url("")<left><left>
+nnoremap <Leader>ua :js add_url("")<left><left>
 
 " # Editing line not area by emacs
 " ## To move

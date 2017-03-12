@@ -21,4 +21,6 @@ end
 ``` bash
 [ ! -e "$HOME/.evil-vimperator.d/.config.vimp" ] && cp "$HOME/bin/evil-vimperator/.config.vimp" "$HOME/.evil-vimperator.d/.config.vimp" 
 [ ! -e "$HOME/.evil-vimperator.d/.url.vimp" ] && cp "$HOME/bin/evil-vimperator/.url.vimp" "$HOME/.evil-vimperator.d/.url.vimp" 
+
+chmod +x "$HOME/bin/evil-vimperator/url.d/add_url.sh"
 ```
