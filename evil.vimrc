@@ -80,6 +80,10 @@ nnoremap f <C-f>
 nnoremap <C-f> f
 nnoremap b <C-b>
 nnoremap <C-b> b
+
+nnoremap d <C-b>
+nnoremap w d
+
 " ## Tabs
 nnoremap t <C-t>
 nnoremap <C-t> t
@@ -87,6 +91,7 @@ nnoremap n <C-n>
 nnoremap <C-n> n
 nnoremap p <C-p>
 nnoremap <C-p> p
+
 " ## Bookmarks
 nnoremap <C-S-b> <ins><C-b><ins>
 inoremap <C-S-b> <ins><C-b><ins>
