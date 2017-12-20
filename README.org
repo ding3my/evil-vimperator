@@ -17,7 +17,7 @@ git -C "$HOME/.vimperator/plugin/evil-vimperator" pull
 #+END_SRC
 *** Uninstallation
 #+BEGIN_SRC  
-!!! Just remove "$HOME/.vimperator/plugin/evil-vimperator".
+# Just remove "$HOME/.vimperator/plugin/evil-vimperator".
 #+END_SRC
 * General User
 https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic.html#Basic
