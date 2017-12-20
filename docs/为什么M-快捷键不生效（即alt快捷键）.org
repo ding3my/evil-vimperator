@@ -1,0 +1,18 @@
+* 历史
+  Unreleased
+
+0.1 - 2017-12-20
+* 序言
+* 参考
+- liberator://help/all#key-notation,key-sequence
+  - <A-x>: The alt key.
+- http://vimdoc.sourceforge.net/htmldoc/intro.html#notation
+  - These names for keys are used in the documentation.  They can also be used with the ":map" command (insert the key name by pressing CTRL-K and then the key you want the name for).
+  - <M-...>		alt-key or meta-key		*meta* *alt* *<M-*
+  - <A-...>		same as <M-...>			*<A-*
+  - <D-...>		command-key (Macintosh only)	*<D-*
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Modifier-Keys.html
+  - Although only the <Control> and <META> modifier keys are commonly used, Emacs supports three other modifier keys. These are called <Super>, <Hyper> and <Alt>. Few terminals provide ways to use these modifiers; the key labeled <Alt> on most keyboards usually issues the <META> modifier, not <Alt>. The standard key bindings in Emacs do not include any characters with these modifiers. However, you can customize Emacs to assign meanings to them. The modifier bits are labeled as ‘s-’, ‘H-’ and ‘A-’ respectively. 
+* 正文
+* 结论
+vimperator以A-作为alt的前缀。

@@ -1,0 +1,53 @@
+" Moving Point
+"" C-f
+inoremap <C-f> <Right>
+cnoremap <C-f> <Right>
+"" C-b
+inoremap <C-b> <Left>
+cnoremap <C-b> <Left>
+"" C-n
+inoremap <C-n> <Down>
+cnoremap <C-n> <Down>
+"" C-p
+inoremap <C-p> <Up>
+cnoremap <C-p> <Up>
+"" C-a
+inoremap <C-a> <Home>
+cnoremap <C-a> <Home>
+"" C-e
+inoremap <C-e> <End>
+cnoremap <C-e> <End>
+"" M-f
+inoremap <A-f> <C-Right>
+cnoremap <A-f> <C-Right>
+"" M-b
+inoremap <A-b> <C-Left>
+cnoremap <A-b> <C-Left>
+"" M-<
+inoremap <A-<> <C-Home>
+cnoremap <A-<> <C-Home>
+"" M->
+inoremap <A->> <C-End>
+cnoremap <A->> <C-End>
+
+" Erasing: Deleting and killing text. 
+"" C-d
+inoremap <C-d> <Del>
+cnoremap <C-d> <Del>
+"" C-k
+inoremap <C-k> <S-End><C-x>
+cnoremap <C-k> <S-End><C-x>
+"" M-d
+inoremap <A-d> <C-S-Right><C-x>
+cnoremap <A-d> <C-S-Right><C-x>
+"" M-<DEL>
+inoremap <A-BS> <C-S-Left><C-x>
+cnoremap <A-BS> <C-S-Left><C-x>
+
+" Other
+"" C-y
+inoremap <C-y> <C-v>
+cnoremap <C-y> <C-v>
+"" M-w
+inoremap <A-w> <C-c>
+cnoremap <A-w> <C-c>

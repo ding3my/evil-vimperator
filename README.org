@@ -1,0 +1,46 @@
+* History
+  Unreleased
+
+0.1 - 2017-12-20
+* Intro
+Shortcuts for firefox with Emacs style in insert-mode.
+* Operation and Maintenance
+** Linux
+*** Installation
+#+BEGIN_SRC 
+mkdir -p "$HOME/.vimperator/plugin/evil-vimperator"
+git clone https://github.com/ding3my/evil-vimperator.git "$HOME/.vimperator/plugin/evil-vimperator"
+#+END_SRC
+*** Update
+#+BEGIN_SRC  
+git -C "$HOME/.vimperator/plugin/evil-vimperator" pull
+#+END_SRC
+* General User
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic.html#Basic
+** Moving Point: Moving the cursor to the place where you want to change something.
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Moving-Point.html#Moving-Point
+
+- C-f
+- C-b
+- C-n
+- C-p
+- C-a
+- C-e
+- M-f
+- M-b
+- M-<
+- M->
+** Erasing: Deleting and killing text. 
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Erasing.html#Erasing
+- C-d
+- C-k
+- M-d
+- M-<DEL>
+** Other
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Killing.html#Killing
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Clipboard.html
+
+- C-y
+- M-w
+* Bugs
+- Some shortcuts are not working for "app.yinxiang.com".
